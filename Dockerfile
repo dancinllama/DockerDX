@@ -11,6 +11,8 @@ RUN apt-get update && \
     apt-get -y install git && \
     sfdx force --help;
     
+#Now that DX is installed and ready to go, need to install Java (eww), 
+#because things like running jasmine and mocha unit tests depend on Java.
 # This is in accordance to : https://www.digitalocean.com/community/tutorials/how-to-install-java-with-apt-get-on-ubuntu-16-04
 RUN apt-get install -y openjdk-8-jdk && \
 	apt-get clean && \
