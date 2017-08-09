@@ -6,7 +6,7 @@ RUN apt-get update && \
     wget https://developer.salesforce.com/media/salesforce-cli/sfdx-linux-amd64.tar.xz -O sfdx.tar.xz && \
     apt-get update && \
     tar -xvJf ~/sfdx.tar.xz && \
-    cd heroku && \
+    cd sfdx && \
     ./install && \
     apt-get -y install git && \
     sfdx force --help
