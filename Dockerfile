@@ -9,6 +9,7 @@ RUN apt-get update && \
     cd sfdx && \
     ./install && \
     apt-get -y install git && \
+    apt-get -y install xxd && \
     sfdx force --help;
     
 #Now that DX is installed and ready to go, need to install Java (eww), 
