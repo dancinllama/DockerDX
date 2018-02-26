@@ -9,7 +9,7 @@ RUN apt-get update && \
     cd sfdx && \
     ./install && \
     apt-get -y install git && \
-    apt-get -y install xxd && \
+    apt-get -y install vim-common && \
     sfdx force --help;
     
 #Now that DX is installed and ready to go, need to install Java (eww), 
