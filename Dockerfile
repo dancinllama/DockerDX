@@ -13,6 +13,7 @@ RUN apt-get update && \
     apt-get -y install vim-common && \
     sfdx force --help && \
     sfdx plugins:install salesforcedx@pre-release && \
+    apt-get -y install npm && \
     npm install && \
     npm install @salesforce/lwc-jest --save-dev;
     
