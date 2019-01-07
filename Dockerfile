@@ -5,7 +5,8 @@ RUN apt-get update && \
     cd ~ && \
     wget https://developer.salesforce.com/media/salesforce-cli/sfdx-linux-amd64.tar.xz -O sfdx.tar.xz && \
     apt-get update && \
-    tar -xvJf ~/sfdx.tar.xz && \
+    mkdir sfdx && \
+    tar -xvJf ~/sfdx.tar.xz -C sfdx && \
     cd sfdx && \
     ./install && \
     apt-get -y install git && \
