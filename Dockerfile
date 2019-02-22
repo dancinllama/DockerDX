@@ -17,6 +17,6 @@ RUN apt-get update && \
     npm install && \
     npm install @salesforce/lwc-jest --save-dev && \
     npm install @salesforce/eslint-config-lwc && \
-    npm install -g eslint
-    npm install -g prettier
+    npm install -g eslint && \
+    npm install -g prettier;
     
