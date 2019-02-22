@@ -15,5 +15,7 @@ RUN apt-get update && \
     sfdx plugins:install salesforcedx@pre-release && \
     apt-get -y install npm && \
     npm install && \
-    npm install @salesforce/lwc-jest --save-dev;
+    npm install @salesforce/lwc-jest --save-dev && \
+    npm install @salesforce/eslint-config-lwc && \
+    npm install -g eslint
     
