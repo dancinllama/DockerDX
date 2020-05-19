@@ -1,0 +1,4 @@
+name: 'DockerDX Action'
+description: 'Action for utilizing SFDX CLI along with Accenture's SFPowerKit plugin (https://github.com/Accenture/sfpowerkit)
+runs:
+  using: 'dancinllama/dockerdx'
